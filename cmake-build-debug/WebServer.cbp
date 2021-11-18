@@ -78,6 +78,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/reebdeve/CLionProjects/WebServer/CGImysql/sql_connection_pool.h">
+			<Option target="WebServer"/>
+		</Unit>
 		<Unit filename="/Users/reebdeve/CLionProjects/WebServer/lock/locker.h">
 			<Option target="WebServer"/>
 		</Unit>
@@ -91,6 +94,9 @@
 			<Option target="WebServer"/>
 		</Unit>
 		<Unit filename="/Users/reebdeve/CLionProjects/WebServer/main.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/WebServer/threadpool/threadpool.h">
 			<Option target="WebServer"/>
 		</Unit>
 		<Unit filename="/Users/reebdeve/CLionProjects/WebServer/CMakeLists.txt">
