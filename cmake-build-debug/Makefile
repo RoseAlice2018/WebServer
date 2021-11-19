@@ -129,6 +129,30 @@ WebServer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WebServer.dir/build.make CMakeFiles/WebServer.dir/build
 .PHONY : WebServer/fast
 
+CGImysql/sql_connection_pool.o: CGImysql/sql_connection_pool.cpp.o
+.PHONY : CGImysql/sql_connection_pool.o
+
+# target to build an object file
+CGImysql/sql_connection_pool.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WebServer.dir/build.make CMakeFiles/WebServer.dir/CGImysql/sql_connection_pool.cpp.o
+.PHONY : CGImysql/sql_connection_pool.cpp.o
+
+CGImysql/sql_connection_pool.i: CGImysql/sql_connection_pool.cpp.i
+.PHONY : CGImysql/sql_connection_pool.i
+
+# target to preprocess a source file
+CGImysql/sql_connection_pool.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WebServer.dir/build.make CMakeFiles/WebServer.dir/CGImysql/sql_connection_pool.cpp.i
+.PHONY : CGImysql/sql_connection_pool.cpp.i
+
+CGImysql/sql_connection_pool.s: CGImysql/sql_connection_pool.cpp.s
+.PHONY : CGImysql/sql_connection_pool.s
+
+# target to generate assembly for a file
+CGImysql/sql_connection_pool.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WebServer.dir/build.make CMakeFiles/WebServer.dir/CGImysql/sql_connection_pool.cpp.s
+.PHONY : CGImysql/sql_connection_pool.cpp.s
+
 log/log.o: log/log.cpp.o
 .PHONY : log/log.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... WebServer"
+	@echo "... CGImysql/sql_connection_pool.o"
+	@echo "... CGImysql/sql_connection_pool.i"
+	@echo "... CGImysql/sql_connection_pool.s"
 	@echo "... log/log.o"
 	@echo "... log/log.i"
 	@echo "... log/log.s"

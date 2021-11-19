@@ -8,7 +8,7 @@
 #include <mysql.h>
 #include "../lock/locker.h"
 #include <list>
-
+#include <string>
 
 class connection_pool
 {
@@ -21,7 +21,7 @@ public:
     //单例模式
     static connection_pool* GetInstance();
 
-    void init(std::string url,std::string User,std::string PassWord,int Port,unsigned int MaxConn);
+    void init(std::string url,std::string User,std::string PassWord,std::string DataBaseName,int Port,unsigned int MaxConn);
 
     connection_pool();
     ~connection_pool();
@@ -37,11 +37,11 @@ private:
     sem reserve;
 
 private:
-    string url;         //主机地址
-    string Port;        //数据库端口号
-    string User;        //登陆数据库用户名
-    string PassWord;    //登陆数据库密码
-    string DatabaseName;//使用数据库名
+    std::string url;         //主机地址
+    std::string Port;        //数据库端口号
+    std::string User;        //登陆数据库用户名
+    std::string PassWord;    //登陆数据库密码
+    std::string DatabaseName;//使用数据库名
 };
 
 class connectionRAII{

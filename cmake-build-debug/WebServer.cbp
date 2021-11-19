@@ -78,7 +78,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/reebdeve/CLionProjects/WebServer/CGImysql/sql_connection_pool.cpp">
+			<Option target="WebServer"/>
+		</Unit>
 		<Unit filename="/Users/reebdeve/CLionProjects/WebServer/CGImysql/sql_connection_pool.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/WebServer/http/http_conn.h">
 			<Option target="WebServer"/>
 		</Unit>
 		<Unit filename="/Users/reebdeve/CLionProjects/WebServer/lock/locker.h">
